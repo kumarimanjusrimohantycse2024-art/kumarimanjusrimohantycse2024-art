@@ -1,0 +1,15 @@
+<svg width="760" height="520" viewBox="0 0 760 520" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Elan Greek D Top Ten finalist award</title>
+  <desc id="desc">A geometric finalist emblem for the Elan Greek D achievement</desc>
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="760" y2="520"><stop stop-color="#070711"/><stop offset="1" stop-color="#0B1020"/></linearGradient><linearGradient id="edge" x1="180" y1="70" x2="580" y2="410"><stop stop-color="#8B5CF6"/><stop offset="1" stop-color="#00E5FF"/></linearGradient></defs>
+  <rect width="760" height="520" rx="24" fill="url(#bg)"/>
+  <g stroke="#9295B5" stroke-opacity=".08"><path d="M0 104H760M0 208H760M0 312H760M0 416H760M104 0V520M208 0V520M312 0V520M416 0V520M520 0V520M624 0V520"/></g>
+  <path d="M380 54L568 162V378L380 486L192 378V162L380 54Z" fill="#0B1020" stroke="#8B5CF6" stroke-opacity=".8" stroke-width="4"/>
+  <path d="M380 92L528 178V350L380 436L232 350V178L380 92Z" stroke="url(#edge)" stroke-width="5"/>
+  <path d="M380 132L480 190V332L380 390L280 332V190L380 132Z" fill="#070711" stroke="#A855F7" stroke-width="3"/>
+  <circle cx="380" cy="238" r="72" fill="#0B1020" stroke="#00E5FF" stroke-width="5"/>
+  <text x="380" y="255" text-anchor="middle" fill="#F4F4FF" font-family="monospace" font-size="54" font-weight="700">10</text>
+  <text x="380" y="470" text-anchor="middle" fill="#F4F4FF" font-family="monospace" font-size="30" font-weight="700" letter-spacing="4">TOP 10</text>
+  <text x="380" y="501" text-anchor="middle" fill="#9295B5" font-family="monospace" font-size="15" letter-spacing="3">ELAN GREEK D / FINALIST</text>
+  <rect x="1" y="1" width="758" height="518" rx="23" stroke="#8B5CF6" stroke-opacity=".55" stroke-width="2"/>
+</svg>

@@ -1,0 +1,10 @@
+<svg width="720" height="360" viewBox="0 0 720 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">AlgoLab sorting visualizer project visual</title><desc id="desc">Animated sorting bars and complexity chart</desc>
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="720" y2="360"><stop stop-color="#070711"/><stop offset="1" stop-color="#10162B"/></linearGradient><linearGradient id="bars" x1="90" y1="280" x2="470" y2="80"><stop stop-color="#A855F7"/><stop offset=".55" stop-color="#388BFF"/><stop offset="1" stop-color="#00E5FF"/></linearGradient></defs>
+  <rect width="720" height="360" rx="20" fill="url(#bg)"/><rect x="1" y="1" width="718" height="358" rx="19" stroke="#388BFF" stroke-opacity=".55" stroke-width="2"/>
+  <g opacity=".15" stroke="#9295B5"><path d="M0 72H720M0 144H720M0 216H720M0 288H720M72 0V360M144 0V360M216 0V360M288 0V360M360 0V360M432 0V360M504 0V360M576 0V360M648 0V360"/></g>
+  <rect x="48" y="42" width="624" height="276" rx="18" fill="#090A18" fill-opacity=".86" stroke="#303A64"/>
+  <g fill="url(#bars)" stroke="#F4F4FF" stroke-opacity=".12"><rect x="90" y="230" width="36" height="50" rx="5"/><rect x="138" y="192" width="36" height="88" rx="5"/><rect x="186" y="252" width="36" height="28" rx="5"/><rect x="234" y="166" width="36" height="114" rx="5"/><rect x="282" y="118" width="36" height="162" rx="5"/><rect x="330" y="208" width="36" height="72" rx="5"/><rect x="378" y="146" width="36" height="134" rx="5"/><rect x="426" y="96" width="36" height="184" rx="5"/></g>
+  <path d="M508 280C530 246 552 256 574 214C590 180 618 188 638 112" stroke="#A855F7" stroke-width="4"/><circle cx="638" cy="112" r="7" fill="#00E5FF"/>
+  <text x="506" y="80" fill="#F4F4FF" font-family="monospace" font-size="18">BIG-O / LIVE</text>
+</svg>

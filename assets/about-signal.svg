@@ -1,0 +1,14 @@
+<svg width="620" height="360" viewBox="0 0 620 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Developer signal panel</title><desc id="desc">An abstract circuit core representing software engineering and artificial intelligence</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="620" y2="360"><stop stop-color="#080B16"/><stop offset="1" stop-color="#11172B"/></linearGradient>
+    <linearGradient id="core" x1="170" y1="70" x2="470" y2="290"><stop stop-color="#A855F7"/><stop offset="1" stop-color="#00E5FF"/></linearGradient>
+  </defs>
+  <rect width="620" height="360" rx="20" fill="url(#bg)"/><rect x="1" y="1" width="618" height="358" rx="19" stroke="#8B5CF6" stroke-opacity=".5" stroke-width="2"/>
+  <g stroke="#9295B5" stroke-opacity=".10"><path d="M0 60H620M0 120H620M0 180H620M0 240H620M0 300H620M62 0V360M124 0V360M186 0V360M248 0V360M310 0V360M372 0V360M434 0V360M496 0V360M558 0V360"/></g>
+  <circle cx="310" cy="180" r="92" stroke="url(#core)" stroke-width="3"/><circle cx="310" cy="180" r="68" stroke="#A855F7" stroke-opacity=".5" stroke-width="2" stroke-dasharray="8 10"/>
+  <circle cx="310" cy="180" r="24" fill="#0B1020" stroke="#00E5FF" stroke-width="5"/>
+  <g fill="#A855F7"><circle cx="310" cy="88" r="6"/><circle cx="310" cy="272" r="6"/><circle cx="218" cy="180" r="6"/><circle cx="402" cy="180" r="6"/></g>
+  <g stroke="#00E5FF" stroke-width="3"><path d="M310 88V156M310 204V272M218 180H286M334 180H402"/><path d="M310 88H396V62M310 272H224V298M218 180H118V118M402 180H502V242"/></g>
+  <text x="310" y="326" text-anchor="middle" fill="#9295B5" font-family="monospace" font-size="13" letter-spacing="4">LEARN / BUILD / EVOLVE</text>
+</svg>

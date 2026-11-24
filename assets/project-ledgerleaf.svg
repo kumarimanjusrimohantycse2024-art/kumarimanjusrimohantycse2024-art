@@ -1,0 +1,18 @@
+<svg width="720" height="360" viewBox="0 0 720 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">LedgerLeaf AI project visual</title>
+  <desc id="desc">Financial dashboard abstract in violet and cyan</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="720" y2="360"><stop stop-color="#090915"/><stop offset="1" stop-color="#11172B"/></linearGradient>
+    <linearGradient id="leaf" x1="210" y1="80" x2="560" y2="280"><stop stop-color="#A855F7"/><stop offset="1" stop-color="#00E5FF"/></linearGradient>
+  </defs>
+  <rect width="720" height="360" rx="20" fill="url(#bg)"/>
+  <rect x="1" y="1" width="718" height="358" rx="19" stroke="#8B5CF6" stroke-opacity=".55" stroke-width="2"/>
+  <g opacity=".18" stroke="#9295B5"><path d="M0 72H720M0 144H720M0 216H720M0 288H720M72 0V360M144 0V360M216 0V360M288 0V360M360 0V360M432 0V360M504 0V360M576 0V360M648 0V360"/></g>
+  <rect x="54" y="48" width="612" height="264" rx="16" fill="#070711" fill-opacity=".88" stroke="#303A64"/>
+  <rect x="54" y="48" width="612" height="48" rx="16" fill="#0D1022"/><circle cx="82" cy="72" r="5" fill="#A855F7"/><circle cx="100" cy="72" r="5" fill="#00E5FF"/>
+  <path d="M120 244V190M160 244V168M200 244V208M240 244V140M280 244V178M320 244V112" stroke="url(#leaf)" stroke-width="18" stroke-linecap="round"/>
+  <path d="M356 244V88C448 88 500 142 548 244H356Z" fill="#8B5CF6" fill-opacity=".10" stroke="#A855F7"/>
+  <path d="M382 214C432 202 466 156 520 120" stroke="#00E5FF" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="520" cy="120" r="8" fill="#00E5FF"/>
+  <text x="382" y="130" fill="#F4F4FF" font-family="monospace" font-size="24">LEDGER / AI</text>
+</svg>

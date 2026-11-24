@@ -1,0 +1,14 @@
+<svg width="720" height="360" viewBox="0 0 720 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Tracehire project visual</title>
+  <desc id="desc">Evidence graph and candidate scoring interface</desc>
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="720" y2="360"><stop stop-color="#070711"/><stop offset="1" stop-color="#0C1530"/></linearGradient><linearGradient id="link" x1="130" y1="100" x2="590" y2="280"><stop stop-color="#A855F7"/><stop offset="1" stop-color="#00E5FF"/></linearGradient></defs>
+  <rect width="720" height="360" rx="20" fill="url(#bg)"/><rect x="1" y="1" width="718" height="358" rx="19" stroke="#00E5FF" stroke-opacity=".48" stroke-width="2"/>
+  <g stroke="#9295B5" stroke-opacity=".12"><path d="M0 60H720M0 120H720M0 180H720M0 240H720M0 300H720M60 0V360M120 0V360M180 0V360M240 0V360M300 0V360M360 0V360M420 0V360M480 0V360M540 0V360M600 0V360M660 0V360"/></g>
+  <rect x="48" y="44" width="624" height="272" rx="18" fill="#090A18" stroke="#303A64"/>
+  <circle cx="188" cy="180" r="58" stroke="url(#link)" stroke-width="3"/><circle cx="188" cy="180" r="12" fill="#A855F7"/>
+  <circle cx="520" cy="116" r="38" stroke="#00E5FF" stroke-opacity=".7" stroke-width="3"/><circle cx="520" cy="116" r="8" fill="#00E5FF"/>
+  <circle cx="508" cy="248" r="44" stroke="#A855F7" stroke-opacity=".7" stroke-width="3"/><circle cx="508" cy="248" r="8" fill="#A855F7"/>
+  <path d="M198 170L482 120M218 198L466 236M520 154V204" stroke="url(#link)" stroke-width="3" stroke-dasharray="7 8"/>
+  <rect x="78" y="278" width="180" height="8" rx="4" fill="#A855F7"/><rect x="78" y="298" width="118" height="6" rx="3" fill="#9295B5"/>
+  <text x="78" y="82" fill="#F4F4FF" font-family="monospace" font-size="22" letter-spacing="2">TRACEHIRE // EVIDENCE</text>
+</svg>
