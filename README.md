@@ -130,7 +130,9 @@ A browser-based sorting visualizer that animates 10 classic algorithms with live
 
 <div align="center">
 
-<a href="https://github.com/kumarimanjusrimohantycse2024-art"><img src="https://streak-stats.demolab.com?user=kumarimanjusrimohantycse2024-art&hide_border=true&background=070711&stroke=303A64&ring=A855F7&fire=00E5FF&currStreakLabel=00E5FF&sideLabels=F4F4FF&dates=9295B5" width="86%" alt="GitHub contribution streak"/></a>
+<a href="https://github.com/kumarimanjusrimohantycse2024-art"><img src="./assets/github-streak.svg" width="86%" alt="Automatically refreshed GitHub contribution streak"/></a>
+
+<sub>Refreshes every 15 minutes and on pushes to this repository. Set the optional <code>STREAK_STATS_TOKEN</code> repository secret to include private-repository contributions.</sub>
 
 </div>
 
