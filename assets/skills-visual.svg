@@ -1,43 +1,150 @@
-<svg width="1600" height="430" viewBox="0 0 1600 430" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<svg width="1600" height="520" viewBox="0 0 1600 520" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">Manjusri Mohanty's technology arsenal</title>
-  <desc id="desc">Five grouped futuristic panels for programming, Django, tools, AI tools, and SQL knowledge</desc>
+  <desc id="desc">Programming: Python, HTML5, CSS3, and JavaScript. Framework: Django. Developer tools: Git, GitHub, and Visual Studio Code. AI tools: ChatGPT and OpenAI, Google Gemini, Anthropic Claude, Perplexity AI, and Cursor AI. Database: SQL and MongoDB.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="430"><stop stop-color="#070711"/><stop offset=".5" stop-color="#0B1020"/><stop offset="1" stop-color="#070711"/></linearGradient>
-    <linearGradient id="edge" x1="0" y1="0" x2="1600" y2="430"><stop stop-color="#8B5CF6"/><stop offset=".52" stop-color="#A855F7"/><stop offset="1" stop-color="#00E5FF"/></linearGradient>
+    <linearGradient id="background" x1="0" y1="0" x2="1600" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#070711"/>
+      <stop offset=".52" stop-color="#0B1020"/>
+      <stop offset="1" stop-color="#070711"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1600" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8B5CF6"/>
+      <stop offset=".52" stop-color="#A855F7"/>
+      <stop offset="1" stop-color="#00E5FF"/>
+    </linearGradient>
+    <linearGradient id="gemini-gradient" x1="2" y1="3" x2="22" y2="21" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4285F4"/>
+      <stop offset=".48" stop-color="#A142F4"/>
+      <stop offset="1" stop-color="#D96570"/>
+    </linearGradient>
+    <pattern id="grid" width="80" height="80" patternUnits="userSpaceOnUse">
+      <path d="M80 0H0V80" stroke="#9295B5" stroke-opacity=".055"/>
+    </pattern>
+    <mask id="vscode-mask" x="0" y="0" width="128" height="128" maskUnits="userSpaceOnUse">
+      <path fill="#fff" fill-rule="evenodd" clip-rule="evenodd" d="M90.767 127.126a7.968 7.968 0 0 0 6.35-.244l26.353-12.681a8 8 0 0 0 4.53-7.209V21.009a8 8 0 0 0-4.53-7.21L97.117 1.12a7.97 7.97 0 0 0-9.093 1.548l-50.45 46.026L15.6 32.013a5.328 5.328 0 0 0-6.807.302l-7.048 6.411a5.335 5.335 0 0 0-.006 7.888L20.796 64 1.74 81.387a5.336 5.336 0 0 0 .006 7.887l7.048 6.411a5.327 5.327 0 0 0 6.807.303l21.974-16.68 50.45 46.025a7.96 7.96 0 0 0 2.743 1.793Zm5.252-92.183L57.74 64l38.28 29.058V34.943Z"/>
+    </mask>
+    <g id="python-mark">
+      <path fill="#3776AB" d="M63.391 1.988c-4.222.02-8.252.379-11.8 1.007-10.45 1.846-12.346 5.71-12.346 12.837v9.411h24.693v3.137H29.977c-7.176 0-13.46 4.313-15.426 12.521-2.268 9.405-2.368 15.275 0 25.096 1.755 7.311 5.947 12.519 13.124 12.519h8.491V67.234c0-8.151 7.051-15.34 15.426-15.34h24.665c6.866 0 12.346-5.654 12.346-12.548V15.833c0-6.693-5.646-11.72-12.346-12.837-4.244-.706-8.645-1.027-12.866-1.008zM50.037 9.557c2.55 0 4.634 2.117 4.634 4.721 0 2.593-2.083 4.69-4.634 4.69-2.56 0-4.633-2.097-4.633-4.69-.001-2.604 2.073-4.721 4.633-4.721z" transform="translate(0 10.26)"/>
+      <path fill="#FFD43B" d="M91.682 28.38v10.966c0 8.5-7.208 15.655-15.426 15.655H51.591c-6.756 0-12.346 5.783-12.346 12.549v23.515c0 6.691 5.818 10.628 12.346 12.547 7.816 2.297 15.312 2.713 24.665 0 6.216-1.801 12.346-5.423 12.346-12.547v-9.412H63.938v-3.138h37.012c7.176 0 9.852-5.005 12.348-12.519 2.578-7.735 2.467-15.174 0-25.096-1.774-7.145-5.161-12.521-12.348-12.521h-9.268zM77.809 87.927c2.561 0 4.634 2.097 4.634 4.692 0 2.602-2.074 4.719-4.634 4.719-2.55 0-4.633-2.117-4.633-4.719 0-2.595 2.083-4.692 4.633-4.692z" transform="translate(0 10.26)"/>
+    </g>
   </defs>
-  <rect width="1600" height="430" rx="24" fill="url(#bg)"/>
-  <g stroke="#9295B5" stroke-opacity=".08"><path d="M0 72H1600M0 144H1600M0 216H1600M0 288H1600M0 360H1600"/><path d="M100 0V430M300 0V430M500 0V430M700 0V430M900 0V430M1100 0V430M1300 0V430M1500 0V430"/></g>
-  <g font-family="monospace" text-anchor="middle">
-    <rect x="28" y="46" width="290" height="338" rx="18" fill="#0B1020" stroke="#8B5CF6" stroke-opacity=".65"/>
-    <text x="173" y="86" fill="#00E5FF" font-size="18" letter-spacing="3">01 / CODE</text>
-    <text x="173" y="150" fill="#F4F4FF" font-size="28">PYTHON</text>
-    <text x="173" y="200" fill="#F4F4FF" font-size="24">SQL  /  HTML</text>
-    <text x="173" y="250" fill="#F4F4FF" font-size="24">CSS  /  JS</text>
-    <path d="M78 314H268" stroke="url(#edge)" stroke-width="3"/><circle cx="173" cy="314" r="7" fill="#A855F7"/>
+  <rect width="1600" height="520" rx="24" fill="url(#background)"/>
+  <rect width="1600" height="520" rx="24" fill="url(#grid)"/>
+  <text x="800" y="43" fill="#F4F4FF" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" letter-spacing="4" text-anchor="middle">TECHNOLOGY ARSENAL</text>
+  <path d="M505 55H705M895 55H1095" stroke="url(#edge)" stroke-opacity=".72"/>
+  <circle cx="800" cy="55" r="3" fill="#00E5FF"/>
 
-    <rect x="338" y="46" width="250" height="338" rx="18" fill="#0B1020" stroke="#A855F7" stroke-opacity=".65"/>
-    <text x="463" y="86" fill="#00E5FF" font-size="18" letter-spacing="3">02 / FRAMEWORK</text>
-    <text x="463" y="178" fill="#F4F4FF" font-size="34">DJANGO</text>
-    <path d="M390 248H536" stroke="url(#edge)" stroke-width="3"/><text x="463" y="302" fill="#9295B5" font-size="16">BACKEND</text>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="28" y="74" width="296" height="420" rx="18" fill="#0B1020" fill-opacity=".92" stroke="#8B5CF6" stroke-opacity=".62"/>
+    <text x="48" y="112" fill="#00E5FF" font-family="monospace" font-size="17" font-weight="700" letter-spacing="2">01 / PROGRAMMING</text>
+    <g fill="#11182A" stroke="#303A64" stroke-opacity=".72">
+      <rect x="42" y="142" width="268" height="54" rx="11"/>
+      <rect x="42" y="214" width="268" height="54" rx="11"/>
+      <rect x="42" y="286" width="268" height="54" rx="11"/>
+      <rect x="42" y="358" width="268" height="54" rx="11"/>
+    </g>
+    <use href="#python-mark" transform="translate(54 152) scale(.28125)"/>
+    <text x="104" y="177" fill="#F4F4FF" font-size="20" font-weight="600">Python</text>
+    <svg x="54" y="223" width="36" height="36" viewBox="0 0 128 128" aria-hidden="true">
+      <path fill="#E44D26" d="M19.037 113.876L9.032 1.661h109.936l-10.016 112.198-45.019 12.48z"/>
+      <path fill="#F16529" d="M64 116.8l36.378-10.086 8.559-95.878H64z"/>
+      <path fill="#EBEBEB" d="M64 52.455H45.788L44.53 38.361H64V24.599H29.489l.33 3.692 3.382 37.927H64zm0 35.743l-.061.017-15.327-4.14-.979-10.975H33.816l1.928 21.609 28.193 7.826.063-.017z"/>
+      <path fill="#fff" d="M63.952 52.455v13.763h16.947l-1.597 17.849-15.35 4.143v14.319l28.215-7.82.207-2.325 3.234-36.233.335-3.696h-3.708zm0-27.856v13.762h33.244l.276-3.092.628-6.978.329-3.692z"/>
+    </svg>
+    <text x="104" y="255" fill="#F4F4FF" font-size="20" font-weight="600">HTML5</text>
+    <svg x="54" y="295" width="36" height="36" viewBox="0 0 128 128" aria-hidden="true">
+      <path fill="#1572B6" d="M18.814 114.123L8.76 1.352h110.48l-10.064 112.754-45.243 12.543-45.119-12.526z"/>
+      <path fill="#33A9DC" d="M64.001 117.062l36.559-10.136 8.601-96.354h-45.16v106.49z"/>
+      <path fill="#fff" d="M64.001 51.429h18.302l1.264-14.163H64.001V23.435h34.682l-.332 3.711-3.4 38.114h-30.95V51.429z"/>
+      <path fill="#EBEBEB" d="M64.083 87.349l-.061.018-15.403-4.159-.985-11.031H33.752l1.937 21.717 28.331 7.863.063-.018v-14.39z"/>
+      <path fill="#fff" d="M81.127 64.675l-1.666 18.522-15.426 4.164v14.39l28.354-7.858.208-2.337 2.406-26.881H81.127z"/>
+      <path fill="#EBEBEB" d="M64.048 23.435v13.831H30.64l-.277-3.108-.63-7.012-.331-3.711h34.646zm-.047 27.996v13.831H48.792l-.277-3.108-.631-7.012-.33-3.711h16.447z"/>
+    </svg>
+    <text x="104" y="327" fill="#F4F4FF" font-size="20" font-weight="600">CSS3</text>
+    <svg x="54" y="367" width="36" height="36" viewBox="0 0 128 128" aria-hidden="true">
+      <path fill="#F0DB4F" d="M1.408 1.408h125.184v125.185H1.408z"/>
+      <path fill="#323330" d="M116.347 96.736c-.917-5.711-4.641-10.508-15.672-14.981-3.832-1.761-8.104-3.022-9.377-5.926-.452-1.69-.512-2.642-.226-3.665.821-3.32 4.784-4.355 7.925-3.403 2.023.678 3.938 2.237 5.093 4.724 5.402-3.498 5.391-3.475 9.163-5.879-1.381-2.141-2.118-3.129-3.022-4.045-3.249-3.629-7.676-5.498-14.756-5.355l-3.688.477c-3.534.893-6.902 2.748-8.877 5.235-5.926 6.724-4.236 18.492 2.975 23.335 7.104 5.332 17.54 6.545 18.873 11.531 1.297 6.104-4.486 8.08-10.234 7.378-4.236-.881-6.592-3.034-9.139-6.949-4.688 2.713-4.688 2.713-9.508 5.485 1.143 2.499 2.344 3.63 4.26 5.795 9.068 9.198 31.76 8.746 35.83-5.176.165-.478 1.261-3.666.38-8.581zM69.462 58.943H57.753l-.048 30.272c0 6.438.333 12.34-.714 14.149-1.713 3.558-6.152 3.117-8.175 2.427-2.059-1.012-3.106-2.451-4.319-4.485-.333-.584-.583-1.036-.667-1.071l-9.52 5.83c1.583 3.249 3.915 6.069 6.902 7.901 4.462 2.678 10.459 3.499 16.731 2.059 4.082-1.189 7.604-3.652 9.448-7.401 2.666-4.915 2.094-10.864 2.07-17.444.06-10.735.001-21.468.001-32.237z"/>
+    </svg>
+    <text x="104" y="399" fill="#F4F4FF" font-size="20" font-weight="600">JavaScript</text>
 
-    <rect x="608" y="46" width="310" height="338" rx="18" fill="#0B1020" stroke="#388BFF" stroke-opacity=".65"/>
-    <text x="763" y="86" fill="#00E5FF" font-size="18" letter-spacing="3">03 / WORKBENCH</text>
-    <text x="763" y="152" fill="#F4F4FF" font-size="28">GIT</text>
-    <text x="763" y="202" fill="#F4F4FF" font-size="28">GITHUB</text>
-    <text x="763" y="252" fill="#F4F4FF" font-size="28">VS CODE</text>
-    <path d="M663 314H863" stroke="#00E5FF" stroke-opacity=".7" stroke-width="3"/>
+    <rect x="340" y="74" width="296" height="420" rx="18" fill="#0B1020" fill-opacity=".92" stroke="#A855F7" stroke-opacity=".62"/>
+    <text x="360" y="112" fill="#00E5FF" font-family="monospace" font-size="17" font-weight="700" letter-spacing="2">02 / FRAMEWORK</text>
+    <rect x="354" y="201" width="268" height="66" rx="12" fill="#11182A" stroke="#303A64" stroke-opacity=".72"/>
+    <svg x="373" y="216" width="36" height="36" viewBox="0 0 24 24" aria-hidden="true">
+      <path fill="#44B78B" d="M11.146 0h3.924v18.166c-2.013.382-3.491.535-5.096.535-4.791 0-7.288-2.166-7.288-6.32 0-4.002 2.65-6.6 6.753-6.6.637 0 1.121.05 1.707.203zm0 9.143a3.894 3.894 0 0 0-1.325-.204c-1.988 0-3.134 1.223-3.134 3.365 0 2.09 1.096 3.236 3.109 3.236.433 0 .79-.025 1.35-.102V9.142zM21.314 6.06v9.098c0 3.134-.229 4.638-.917 5.937-.637 1.249-1.478 2.039-3.211 2.905l-3.644-1.733c1.733-.815 2.574-1.53 3.109-2.625.561-1.121.739-2.421.739-5.835V6.059h3.924zM17.39.021h3.924v4.026H17.39z"/>
+    </svg>
+    <text x="425" y="244" fill="#F4F4FF" font-size="22" font-weight="600">Django</text>
+    <path d="M390 330H586" stroke="url(#edge)" stroke-opacity=".72" stroke-width="2"/>
+    <text x="488" y="359" fill="#9295B5" font-family="monospace" font-size="14" letter-spacing="2" text-anchor="middle">BACKEND FRAMEWORK</text>
 
-    <rect x="938" y="46" width="310" height="338" rx="18" fill="#0B1020" stroke="#A855F7" stroke-opacity=".65"/>
-    <text x="1093" y="86" fill="#00E5FF" font-size="18" letter-spacing="3">04 / AI TOOLS</text>
-    <text x="1093" y="152" fill="#F4F4FF" font-size="28">CHATGPT</text>
-    <text x="1093" y="202" fill="#F4F4FF" font-size="28">GEMINI</text>
-    <text x="1093" y="252" fill="#F4F4FF" font-size="28">CLAUDE</text>
-    <path d="M993 314H1193" stroke="url(#edge)" stroke-width="3"/>
+    <rect x="652" y="74" width="296" height="420" rx="18" fill="#0B1020" fill-opacity=".92" stroke="#388BFF" stroke-opacity=".62"/>
+    <text x="672" y="112" fill="#00E5FF" font-family="monospace" font-size="17" font-weight="700" letter-spacing="2">03 / DEVELOPER TOOLS</text>
+    <g fill="#11182A" stroke="#303A64" stroke-opacity=".72">
+      <rect x="666" y="151" width="268" height="56" rx="11"/>
+      <rect x="666" y="221" width="268" height="56" rx="11"/>
+      <rect x="666" y="291" width="268" height="56" rx="11"/>
+    </g>
+    <svg x="682" y="161" width="36" height="36" viewBox="0 0 24 24" aria-hidden="true">
+      <path fill="#F05032" d="M13.09 23.549a1.54 1.54 0 0 1-2.18 0L.451 13.089a1.54 1.54 0 0 1 0-2.179l7.191-7.19 2.733 2.733a1.85 1.85 0 0 0 .964 2.326v6.66a1.849 1.849 0 1 0 1.54 0V8.957l2.508 2.508a1.85 1.85 0 1 0 1.09-1.09l-2.634-2.634a1.85 1.85 0 0 0-2.378-2.377L8.73 2.63 10.91.451a1.54 1.54 0 0 1 2.179 0l10.459 10.46a1.54 1.54 0 0 1 0 2.179z"/>
+    </svg>
+    <text x="732" y="187" fill="#F4F4FF" font-size="21" font-weight="600">Git</text>
+    <svg x="682" y="231" width="36" height="36" viewBox="0 0 24 24" aria-hidden="true">
+      <path fill="#F4F4FF" d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12z"/>
+    </svg>
+    <text x="732" y="257" fill="#F4F4FF" font-size="21" font-weight="600">GitHub</text>
+    <svg x="682" y="301" width="36" height="36" viewBox="0 0 128 128" aria-hidden="true">
+      <g mask="url(#vscode-mask)">
+        <path fill="#0065A9" d="M123.471 13.82 97.097 1.12A7.973 7.973 0 0 0 88 2.668L1.662 81.387a5.333 5.333 0 0 0 .006 7.887l7.052 6.411a5.333 5.333 0 0 0 6.811.303l103.971-78.875c3.488-2.646 8.498-.158 8.498 4.22v-.306a8.001 8.001 0 0 0-4.529-7.208Z"/>
+        <path fill="#007ACC" d="m123.471 114.181-26.374 12.698A7.973 7.973 0 0 1 88 125.333L1.662 46.613a5.333 5.333 0 0 1 .006-7.887l7.052-6.411a5.333 5.333 0 0 1 6.811-.303l103.971 78.874c3.488 2.647 8.498.159 8.498-4.219v.306a8.001 8.001 0 0 1-4.529 7.208Z"/>
+        <path fill="#1F9CF0" d="M97.098 126.882A7.977 7.977 0 0 1 88 125.333c2.952 2.952 8 .861 8-3.314V5.98c0-4.175-5.048-6.266-8-3.313a7.977 7.977 0 0 1 9.098-1.549L123.467 13.8A8 8 0 0 1 128 21.01v85.982a8 8 0 0 1-4.533 7.21l-26.369 12.681Z"/>
+      </g>
+    </svg>
+    <text x="732" y="327" fill="#F4F4FF" font-size="19" font-weight="600">Visual Studio Code</text>
 
-    <rect x="1268" y="46" width="304" height="338" rx="18" fill="#0B1020" stroke="#00E5FF" stroke-opacity=".65"/>
-    <text x="1420" y="86" fill="#00E5FF" font-size="18" letter-spacing="3">05 / DATABASE</text>
-    <text x="1420" y="178" fill="#F4F4FF" font-size="38">SQL</text>
-    <text x="1420" y="238" fill="#9295B5" font-size="15" letter-spacing="2">CURRENT DATABASE FOCUS</text>
+    <rect x="964" y="74" width="296" height="420" rx="18" fill="#0B1020" fill-opacity=".92" stroke="#A855F7" stroke-opacity=".62"/>
+    <text x="984" y="112" fill="#00E5FF" font-family="monospace" font-size="17" font-weight="700" letter-spacing="2">04 / AI TOOLS</text>
+    <g fill="#11182A" stroke="#303A64" stroke-opacity=".72">
+      <rect x="978" y="136" width="268" height="56" rx="11"/>
+      <rect x="978" y="198" width="268" height="56" rx="11"/>
+      <rect x="978" y="260" width="268" height="56" rx="11"/>
+      <rect x="978" y="322" width="268" height="56" rx="11"/>
+      <rect x="978" y="384" width="268" height="56" rx="11"/>
+    </g>
+    <svg x="994" y="146" width="36" height="36" viewBox="118 120 485 481" aria-hidden="true">
+      <path fill="#fff" d="M304.246 295.411V249.828C304.246 245.989 305.687 243.109 309.044 241.191L400.692 188.412C413.167 181.215 428.042 177.858 443.394 177.858C500.971 177.858 537.44 222.482 537.44 269.982C537.44 273.34 537.44 277.179 536.959 281.018L441.954 225.358C436.197 222 430.437 222 424.68 225.358L304.246 295.411ZM518.245 472.945V364.024C518.245 357.304 515.364 352.507 509.608 349.149L389.174 279.096L428.519 256.543C431.877 254.626 434.757 254.626 438.115 256.543L529.762 309.323C556.154 324.679 573.905 357.304 573.905 388.971C573.905 425.436 552.315 459.024 518.245 472.941V472.945ZM275.937 376.982L236.592 353.952C233.235 352.034 231.794 349.154 231.794 345.315V239.756C231.794 188.416 271.139 149.548 324.4 149.548C344.555 149.548 363.264 156.268 379.102 168.262L284.578 222.964C278.822 226.321 275.942 231.119 275.942 237.838V376.986L275.937 376.982ZM360.626 425.922L304.246 394.255V327.083L360.626 295.416L417.002 327.083V394.255L360.626 425.922ZM396.852 571.789C376.698 571.789 357.989 565.07 342.151 553.075L436.674 498.374C442.431 495.017 445.311 490.219 445.311 483.499V344.352L485.138 367.382C488.495 369.299 489.936 372.179 489.936 376.018V481.577C489.936 532.917 450.109 571.785 396.852 571.785V571.789ZM283.134 464.79L191.486 412.01C165.094 396.654 147.343 364.029 147.343 332.362C147.343 295.416 169.415 262.309 203.48 248.393V357.791C203.48 364.51 206.361 369.308 212.117 372.665L332.074 442.237L292.729 464.79C289.372 466.707 286.491 466.707 283.134 464.79ZM277.859 543.48C223.639 543.48 183.813 502.695 183.813 452.314C183.813 448.475 184.294 444.636 184.771 440.797L279.295 495.498C285.051 498.856 290.812 498.856 296.568 495.498L417.002 425.927V471.509C417.002 475.349 415.562 478.229 412.204 480.146L320.557 532.926C308.081 540.122 293.206 543.48 277.854 543.48H277.859ZM396.852 600.576C454.911 600.576 503.37 559.313 514.41 504.612C568.149 490.696 602.696 440.315 602.696 388.976C602.696 355.387 588.303 322.762 562.392 299.25C564.791 289.173 566.231 279.096 566.231 269.024C566.231 200.411 510.571 149.067 446.274 149.067C433.322 149.067 420.846 150.984 408.37 155.305C386.775 134.192 357.026 120.758 324.4 120.758C266.342 120.758 217.883 162.02 206.843 216.721C153.104 230.637 118.557 281.018 118.557 332.357C118.557 365.946 132.95 398.571 158.861 422.083C156.462 432.16 155.022 442.237 155.022 452.309C155.022 520.922 210.682 572.266 274.978 572.266C287.931 572.266 300.407 570.349 312.883 566.028C334.473 587.141 364.222 600.576 396.852 600.576Z"/>
+    </svg>
+    <text x="1044" y="171" fill="#F4F4FF" font-size="17" font-weight="600">ChatGPT / OpenAI</text>
+    <svg x="994" y="208" width="36" height="36" viewBox="0 0 24 24" aria-hidden="true">
+      <path fill="url(#gemini-gradient)" d="M11.04 19.32Q12 21.51 12 24q0-2.49.93-4.68.96-2.19 2.58-3.81t3.81-2.55Q21.51 12 24 12q-2.49 0-4.68-.93a12.3 12.3 0 0 1-3.81-2.58 12.3 12.3 0 0 1-2.58-3.81Q12 2.49 12 0q0 2.49-.96 4.68-.93 2.19-2.55 3.81a12.3 12.3 0 0 1-3.81 2.58Q2.49 12 0 12q2.49 0 4.68.96 2.19.93 3.81 2.55t2.55 3.81"/>
+    </svg>
+    <text x="1044" y="233" fill="#F4F4FF" font-size="18" font-weight="600">Google Gemini</text>
+    <svg x="994" y="270" width="36" height="36" viewBox="0 0 24 24" aria-hidden="true">
+      <path fill="#D97757" d="M17.3041 3.541h-3.6718l6.696 16.918H24Zm-10.6082 0L0 20.459h3.7442l1.3693-3.5527h7.0052l1.3693 3.5528h3.7442L10.5363 3.5409Zm-.3712 10.2232 2.2914-5.9456 2.2914 5.9456Z"/>
+    </svg>
+    <text x="1044" y="295" fill="#F4F4FF" font-size="17" font-weight="600">Anthropic Claude</text>
+    <svg x="994" y="332" width="36" height="36" viewBox="0 0 24 24" aria-hidden="true">
+      <path fill="#1FB8CD" d="M22.3977 7.0896h-2.3106V.0676l-7.5094 6.3542V.1577h-1.1554v6.1966L4.4904 0v7.0896H1.6023v10.3976h2.8882V24l6.932-6.3591v6.2005h1.1554v-6.0469l6.9318 6.1807v-6.4879h2.8882V7.0896zm-3.4657-4.531v4.531h-5.355l5.355-4.531zm-13.2862.0676 4.8691 4.4634H5.6458V2.6262zM2.7576 16.332V8.245h7.8476l-6.1149 6.1147v1.9723H2.7576zm2.8882 5.0404v-3.8852h.0001v-2.6488l5.7763-5.7764v7.0111l-5.7764 5.2993zm12.7086.0248-5.7766-5.1509V9.0618l5.7766 5.7766v6.5588zm2.8882-5.0652h-1.733v-1.9723L13.3948 8.245h7.8478v8.087z"/>
+    </svg>
+    <text x="1044" y="357" fill="#F4F4FF" font-size="18" font-weight="600">Perplexity AI</text>
+    <svg x="994" y="394" width="36" height="36" viewBox="0 0 24 24" aria-hidden="true">
+      <path fill="#F4F4FF" d="M11.503.131 1.891 5.678a.84.84 0 0 0-.42.726v11.188c0 .3.162.575.42.724l9.609 5.55a1 1 0 0 0 .998 0l9.61-5.55a.84.84 0 0 0 .42-.724V6.404a.84.84 0 0 0-.42-.726L12.497.131a1.01 1.01 0 0 0-.996 0M2.657 6.338h18.55c.263 0 .43.287.297.515L12.23 22.918c-.062.107-.229.064-.229-.06V12.335a.59.59 0 0 0-.295-.51l-9.11-5.257c-.109-.063-.064-.23.061-.23"/>
+    </svg>
+    <text x="1044" y="419" fill="#F4F4FF" font-size="18" font-weight="600">Cursor AI</text>
+
+    <rect x="1276" y="74" width="296" height="420" rx="18" fill="#0B1020" fill-opacity=".92" stroke="#00E5FF" stroke-opacity=".62"/>
+    <text x="1296" y="112" fill="#00E5FF" font-family="monospace" font-size="17" font-weight="700" letter-spacing="2">05 / DATABASE</text>
+    <rect x="1290" y="205" width="268" height="66" rx="12" fill="#11182A" stroke="#303A64" stroke-opacity=".72"/>
+    <rect x="1308" y="222" width="38" height="32" rx="7" fill="#121F35" stroke="#00E5FF" stroke-opacity=".8"/>
+    <text x="1327" y="244" fill="#00E5FF" font-family="monospace" font-size="15" font-weight="700" letter-spacing="1" text-anchor="middle">SQL</text>
+    <text x="1360" y="245" fill="#F4F4FF" font-size="22" font-weight="600">SQL</text>
+    <rect x="1290" y="288" width="268" height="66" rx="12" fill="#11182A" stroke="#303A64" stroke-opacity=".72"/>
+    <svg x="1308" y="301" width="40" height="40" viewBox="0 0 24 24" aria-hidden="true">
+      <path fill="#47A248" d="M17.193 9.555c-1.264-5.58-4.252-7.414-4.573-8.115-.28-.394-.53-.954-.735-1.44-.036.495-.055.685-.523 1.184-.723.566-4.438 3.682-4.74 10.02-.282 5.912 4.27 9.435 4.888 9.884l.07.05A73.49 73.49 0 0 1 11.91 24h.481c.114-1.032.284-2.056.51-3.07.417-.296.604-.463.85-.693a11.342 11.342 0 0 0 3.639-8.464c.01-.814-.103-1.662-.197-2.218zm-5.336 8.195s0-8.291.275-8.29c.213 0 .49 10.695.49 10.695-.381-.045-.765-1.76-.765-2.405z"/>
+    </svg>
+    <text x="1360" y="330" fill="#F4F4FF" font-size="22" font-weight="600">MongoDB</text>
+    <path d="M1326 382H1526" stroke="url(#edge)" stroke-opacity=".72" stroke-width="2"/>
+    <text x="1426" y="411" fill="#9295B5" font-family="monospace" font-size="13" letter-spacing="1.5" text-anchor="middle">DATABASE KNOWLEDGE</text>
   </g>
-  <rect x="1" y="1" width="1598" height="428" rx="23" stroke="url(#edge)" stroke-opacity=".35" stroke-width="2"/>
+
+  <rect x="1" y="1" width="1598" height="518" rx="23" stroke="url(#edge)" stroke-opacity=".36" stroke-width="2"/>
 </svg>

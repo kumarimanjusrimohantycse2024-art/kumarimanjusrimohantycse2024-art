@@ -38,7 +38,7 @@ I am passionate about building meaningful technology that solves real problems. 
 
 <div align="center">
 
-<img src="./assets/skills-visual.svg" width="100%" alt="Programming, Django, developer tools, AI tools, and SQL technology panels" />
+<img src="./assets/skills-visual.svg" width="100%" alt="Technology Arsenal: Python, HTML5, CSS3, JavaScript, Django, Git, GitHub, Visual Studio Code, ChatGPT and OpenAI, Google Gemini, Anthropic Claude, Perplexity AI, Cursor AI, SQL database knowledge, and MongoDB" />
 
 </div>
 
