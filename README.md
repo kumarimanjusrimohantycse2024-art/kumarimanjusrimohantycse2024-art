@@ -107,32 +107,11 @@ A browser-based sorting visualizer that animates 10 classic algorithms with live
 
 ## 04 / ACHIEVEMENT SIGNALS
 
-<table>
-<tr>
-<td width="50%" valign="top" align="center">
+<div align="center">
 
-<img src="./assets/achievement-singularity.svg" width="100%" alt="Singularity Hackathon — Top 5 among 765 teams"/>
+<img src="./assets/achievements-visual.svg" width="100%" alt="Singularity selected among the top 20 of 765 teams; Elan Greek D selected in the top 10 teams; Tensor X third place; YC Fall organized by AI House and HiDevs" />
 
-</td>
-<td width="50%" valign="top" align="center">
-
-<img src="./assets/achievement-elan.svg" width="100%" alt="Elan Greek D — Top 10 teams"/>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top" align="center">
-
-<img src="./assets/achievement-tensor.svg" width="100%" alt="Tensor X — 3rd Place"/>
-
-</td>
-<td width="50%" valign="top" align="center">
-
-<img src="./assets/achievement-sih.svg" width="100%" alt="Smart India Hackathon 2025 — Participant"/>
-
-</td>
-</tr>
-</table>
+</div>
 
 <br/>
 

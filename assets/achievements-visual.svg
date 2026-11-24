@@ -1,14 +1,111 @@
-<svg width="1600" height="360" viewBox="0 0 1600 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Manjusri Mohanty's achievement panels</title>
-  <desc id="desc">Singularity, Elan Greek D, Tensor X, and Smart India Hackathon achievements</desc>
-  <defs><linearGradient id="bg" x1="0" y1="0" x2="1600" y2="360"><stop stop-color="#070711"/><stop offset="1" stop-color="#0B1020"/></linearGradient><linearGradient id="edge" x1="0" y1="0" x2="1600" y2="360"><stop stop-color="#8B5CF6"/><stop offset=".5" stop-color="#A855F7"/><stop offset="1" stop-color="#00E5FF"/></linearGradient></defs>
-  <rect width="1600" height="360" rx="24" fill="url(#bg)"/>
-  <g stroke="#9295B5" stroke-opacity=".07"><path d="M400 0V360M800 0V360M1200 0V360"/></g>
-  <g font-family="monospace" text-anchor="middle">
-    <g><rect x="28" y="36" width="344" height="288" rx="18" fill="#0B1020" stroke="#A855F7" stroke-opacity=".7"/><text x="200" y="92" fill="#00E5FF" font-size="15" letter-spacing="3">SINGULARITY</text><text x="200" y="168" fill="#F4F4FF" font-size="58" font-weight="700">TOP 5</text><text x="200" y="215" fill="#9295B5" font-size="16">AMONG 765 TEAMS</text><path d="M88 258H312" stroke="url(#edge)" stroke-width="4"/></g>
-    <g><rect x="428" y="36" width="344" height="288" rx="18" fill="#0B1020" stroke="#8B5CF6" stroke-opacity=".7"/><text x="600" y="92" fill="#00E5FF" font-size="15" letter-spacing="3">ELAN GREEK D</text><text x="600" y="168" fill="#F4F4FF" font-size="58" font-weight="700">TOP 10</text><text x="600" y="215" fill="#9295B5" font-size="16">TEAM FINALIST</text><path d="M488 258H712" stroke="url(#edge)" stroke-width="4"/></g>
-    <g><rect x="828" y="36" width="344" height="288" rx="18" fill="#0B1020" stroke="#388BFF" stroke-opacity=".7"/><text x="1000" y="92" fill="#00E5FF" font-size="15" letter-spacing="3">TENSOR X</text><text x="1000" y="168" fill="#F4F4FF" font-size="58" font-weight="700">3RD</text><text x="1000" y="215" fill="#9295B5" font-size="16">PLACE FINISH</text><path d="M888 258H1112" stroke="url(#edge)" stroke-width="4"/></g>
-    <g><rect x="1228" y="36" width="344" height="288" rx="18" fill="#0B1020" stroke="#00E5FF" stroke-opacity=".7"/><text x="1400" y="92" fill="#00E5FF" font-size="15" letter-spacing="3">SMART INDIA HACKATHON</text><text x="1400" y="168" fill="#F4F4FF" font-size="42" font-weight="700">2025</text><text x="1400" y="215" fill="#9295B5" font-size="16">PARTICIPANT</text><path d="M1288 258H1512" stroke="url(#edge)" stroke-width="4"/></g>
+<svg width="1600" height="860" viewBox="0 0 1600 860" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Achievement signals</title>
+  <desc id="desc">Singularity selected among the top 20 of 765 teams, Elan Greek D selected in the top 10 teams, Tensor X third place, and YC Fall organized by AI House and HiDevs.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1600" y2="860" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#070711"/>
+      <stop offset=".52" stop-color="#0B1020"/>
+      <stop offset="1" stop-color="#070711"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1600" y2="860" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8B5CF6"/>
+      <stop offset=".5" stop-color="#A855F7"/>
+      <stop offset="1" stop-color="#00E5FF"/>
+    </linearGradient>
+    <linearGradient id="card-glass" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#171D33"/>
+      <stop offset=".55" stop-color="#101629"/>
+      <stop offset="1" stop-color="#0D1323"/>
+    </linearGradient>
+    <linearGradient id="singularity" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#A855F7"/>
+      <stop offset="1" stop-color="#00E5FF"/>
+    </linearGradient>
+    <linearGradient id="elan" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#8B5CF6"/>
+      <stop offset="1" stop-color="#00E5FF"/>
+    </linearGradient>
+    <linearGradient id="tensor" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#388BFF"/>
+      <stop offset="1" stop-color="#00E5FF"/>
+    </linearGradient>
+    <linearGradient id="yc" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#00E5FF"/>
+      <stop offset="1" stop-color="#A855F7"/>
+    </linearGradient>
+    <pattern id="grid" width="80" height="80" patternUnits="userSpaceOnUse">
+      <path d="M80 0H0V80" stroke="#9295B5" stroke-opacity=".045"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="860" rx="26" fill="url(#background)"/>
+  <rect width="1600" height="860" rx="26" fill="url(#grid)"/>
+  <text x="800" y="58" text-anchor="middle" fill="#F4F4FF" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" letter-spacing="5">ACHIEVEMENT SIGNALS</text>
+  <path d="M478 78H690M910 78H1122" stroke="url(#edge)" stroke-opacity=".72"/>
+  <circle cx="800" cy="78" r="4" fill="#00E5FF"/>
+
+  <g font-family="Arial, Helvetica, sans-serif">
+    <g>
+      <rect x="48" y="118" width="736" height="328" rx="22" fill="url(#card-glass)" stroke="#A855F7" stroke-opacity=".72" stroke-width="2"/>
+      <path d="M70 120H762" stroke="#F4F4FF" stroke-opacity=".08"/>
+      <path d="M70 120H250" stroke="url(#singularity)" stroke-width="4" stroke-linecap="round"/>
+      <circle cx="72" cy="167" r="4" fill="#A855F7"/>
+      <text x="92" y="174" fill="#00E5FF" font-family="monospace" font-size="17" font-weight="700" letter-spacing="3">01 / SINGULARITY</text>
+      <text x="92" y="258" fill="#F4F4FF" font-size="58" font-weight="700" letter-spacing="1">TOP 20</text>
+      <text x="94" y="302" fill="#C5C9DE" font-size="21" letter-spacing="1">SELECTED AMONG 765 TEAMS</text>
+      <path d="M94 350H430" stroke="url(#singularity)" stroke-opacity=".8" stroke-width="3"/>
+      <circle cx="664" cy="275" r="102" fill="#A855F7" fill-opacity=".055"/>
+      <circle cx="664" cy="275" r="86" fill="#0B1020" stroke="#A855F7" stroke-opacity=".6" stroke-width="2"/>
+      <circle cx="664" cy="275" r="68" stroke="url(#singularity)" stroke-width="4" stroke-dasharray="9 10"/>
+      <path d="M664 220V330M609 275H719" stroke="#00E5FF" stroke-opacity=".35" stroke-width="2"/>
+      <text x="664" y="291" text-anchor="middle" fill="#F4F4FF" font-family="monospace" font-size="36" font-weight="700">20</text>
+    </g>
+
+    <g>
+      <rect x="816" y="118" width="736" height="328" rx="22" fill="url(#card-glass)" stroke="#8B5CF6" stroke-opacity=".72" stroke-width="2"/>
+      <path d="M838 120H1530" stroke="#F4F4FF" stroke-opacity=".08"/>
+      <path d="M838 120H1018" stroke="url(#elan)" stroke-width="4" stroke-linecap="round"/>
+      <circle cx="840" cy="167" r="4" fill="#8B5CF6"/>
+      <text x="860" y="174" fill="#00E5FF" font-family="monospace" font-size="17" font-weight="700" letter-spacing="3">02 / ELAN GREEK D</text>
+      <text x="860" y="258" fill="#F4F4FF" font-size="58" font-weight="700" letter-spacing="1">TOP 10</text>
+      <text x="862" y="302" fill="#C5C9DE" font-size="21" letter-spacing="1">SELECTED IN TOP 10 TEAMS</text>
+      <path d="M862 350H1198" stroke="url(#elan)" stroke-opacity=".8" stroke-width="3"/>
+      <circle cx="1384" cy="280" r="104" fill="#8B5CF6" fill-opacity=".05"/>
+      <path d="M1384 188L1464 234V326L1384 372L1304 326V234L1384 188Z" fill="#0B1020" stroke="#8B5CF6" stroke-opacity=".7" stroke-width="3"/>
+      <path d="M1384 210L1445 245V315L1384 350L1323 315V245L1384 210Z" stroke="url(#elan)" stroke-width="3"/>
+      <text x="1384" y="292" text-anchor="middle" fill="#F4F4FF" font-family="monospace" font-size="34" font-weight="700">10</text>
+    </g>
+
+    <g>
+      <rect x="48" y="482" width="736" height="328" rx="22" fill="url(#card-glass)" stroke="#388BFF" stroke-opacity=".72" stroke-width="2"/>
+      <path d="M70 484H762" stroke="#F4F4FF" stroke-opacity=".08"/>
+      <path d="M70 484H250" stroke="url(#tensor)" stroke-width="4" stroke-linecap="round"/>
+      <circle cx="72" cy="531" r="4" fill="#388BFF"/>
+      <text x="92" y="538" fill="#00E5FF" font-family="monospace" font-size="17" font-weight="700" letter-spacing="3">03 / TENSOR X</text>
+      <text x="92" y="622" fill="#F4F4FF" font-size="54" font-weight="700" letter-spacing="1">3RD PLACE</text>
+      <path d="M94 680H430" stroke="url(#tensor)" stroke-opacity=".8" stroke-width="3"/>
+      <circle cx="664" cy="644" r="102" fill="#388BFF" fill-opacity=".055"/>
+      <circle cx="664" cy="644" r="86" fill="#0B1020" stroke="#388BFF" stroke-opacity=".6" stroke-width="2"/>
+      <circle cx="664" cy="644" r="68" stroke="url(#tensor)" stroke-width="4"/>
+      <path d="M664 570V608M628 608H700M628 628H700M628 648H700M628 668H700" stroke="#00E5FF" stroke-width="4" stroke-linecap="round"/>
+      <text x="664" y="694" text-anchor="middle" fill="#F4F4FF" font-family="monospace" font-size="42" font-weight="700">3</text>
+    </g>
+
+    <g>
+      <rect x="816" y="482" width="736" height="328" rx="22" fill="url(#card-glass)" stroke="#00E5FF" stroke-opacity=".68" stroke-width="2"/>
+      <path d="M838 484H1530" stroke="#F4F4FF" stroke-opacity=".08"/>
+      <path d="M838 484H1018" stroke="url(#yc)" stroke-width="4" stroke-linecap="round"/>
+      <circle cx="840" cy="531" r="4" fill="#00E5FF"/>
+      <text x="860" y="538" fill="#00E5FF" font-family="monospace" font-size="17" font-weight="700" letter-spacing="3">04 / YC FALL</text>
+      <text x="860" y="622" fill="#F4F4FF" font-size="48" font-weight="700" letter-spacing="1">YC FALL</text>
+      <text x="862" y="680" fill="#9295B5" font-family="monospace" font-size="16" letter-spacing="2">ORGANIZED BY</text>
+      <text x="862" y="724" fill="#C5C9DE" font-size="27" font-weight="600">AI HOUSE X HiDevs</text>
+      <path d="M862 762H1198" stroke="url(#yc)" stroke-opacity=".8" stroke-width="3"/>
+      <circle cx="1384" cy="644" r="100" fill="#00E5FF" fill-opacity=".045"/>
+      <circle cx="1384" cy="644" r="82" fill="#0B1020" stroke="url(#yc)" stroke-width="3"/>
+      <circle cx="1384" cy="644" r="62" stroke="#A855F7" stroke-opacity=".55" stroke-width="2"/>
+      <path d="M1352 672L1384 608L1416 672" stroke="#00E5FF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M1364 672H1404" stroke="#A855F7" stroke-width="5" stroke-linecap="round"/>
+    </g>
   </g>
-  <rect x="1" y="1" width="1598" height="358" rx="23" stroke="url(#edge)" stroke-opacity=".35" stroke-width="2"/>
+  <rect x="1" y="1" width="1598" height="858" rx="25" stroke="url(#edge)" stroke-opacity=".36" stroke-width="2"/>
 </svg>
